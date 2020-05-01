@@ -11,57 +11,57 @@
 接着，会出现` > ` ，控制需要输入` <main-action> `和` <additional-action> `两个参数。
 举例：` control start `开始代理。   
 首次使用前，可能需要执行：`chmod +x easypasswall.sh `来给予` EasyPasswall脚本 `的` 可执行权限 `。  
-初次进入EasyPasswall程序，需要执行` config first `来初始化。
+初次进入` EasyPasswall程序 `，需要执行` config first `来` 初始化 `  。
 
 ## main-actions:
-- config   
-  配置EasyPasswall
+- config  
+  ` 配置EasyPasswall `
 - sub  
-  配置有关代理的内容  
+  ` 配置有关代理的内容 `
 - control  
-  控制代理  
+  ` 控制代理 `  
 - test  
-  测试（速度等等）
+  ` 测试（速度等等） `
 - update  
-  升级（代理核心等等）
+  ` 升级（代理核心等等） `
   
 ## additional-adtions:
 - config:  
  first  
- 初始化     
+ ` 初始化 `     
  http_port  
- 设置http代理端口  
+ ` 设置http代理端口 `  
  https_port  
- 设置https代理端口  
+ ` 设置https代理端口 `  
  socks5_port  
- 设置socks5代理端口  
+ ` 设置socks5代理端口 `  
 
 - sub:  
  add    
- 添加订阅链接     
+ ` 添加订阅链接 `     
  rm  
- 删除订阅链接  
+ ` 删除订阅链接 `   
  update  
- 更新订阅   
+ ` 更新订阅 `   
  
 - control:  
  start  
- 开始代理  
+ ` 开始代理 `  
  stop  
- 停止代理  
+ ` 停止代理 `  
  restart  
- 重启代理  
+ ` 重启代理 `  
  exit  
- 退出程序  
+ ` 退出程序 `  
  
 - test:  
  speed  
- 测试访问百度和谷歌的速度  
+ ` 测试访问百度和谷歌的速度 `  
  proxy  
- 测试各种代理协议状态  
+ ` 测试各种代理协议状态 `  
 
 - update:  
   core  
-  更新代理核心  
+  ` 更新代理核心 `  
   
   

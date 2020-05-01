@@ -7,8 +7,11 @@
 - Python 3
 
 ## Usage:  
-` python3 easypasswall.py --<main-action>-<addtional-action> `  
-首次使用前，需要执行：` python3 easypasswall.py --config-first `来配置。
+首先输入` ./easypasswall.sh  `进入EasyPasswall程序。   
+接着，会出现` > ` ，控制需要输入` <main-action> `和` <additional-action> `两个参数。
+举例：` control start `开始代理。   
+首次使用前，需要执行：`chmod +x easypasswall.sh `来给予EasyPasswall脚本可执行权限。  
+初次进入EasyPasswall程序，需要执行` config first `来初始化。
 
 ## main-actions:
 - config   
@@ -18,7 +21,7 @@
 - test  
   测试（速度等等）   
   
-## addtional-adtions:
+## additional-adtions:
 - control:  
  start  
  开始代理  

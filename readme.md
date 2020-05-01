@@ -7,10 +7,10 @@
 - Python 3
 
 ## Usage:  
-首先输入` ./easypasswall.sh  `进入EasyPasswall程序（注意：本脚本默认采用bash终端）。  
+首先输入` ./easypasswall.sh  `进入` EasyPasswall程序 `（注意：本脚本默认采用` bash终端 `；本脚本会新建一个名为` easypasswall `的` screen窗口 `）。  
 接着，会出现` > ` ，控制需要输入` <main-action> `和` <additional-action> `两个参数。
 举例：` control start `开始代理。   
-首次使用前，需要执行：`chmod +x easypasswall.sh `来给予EasyPasswall脚本可执行权限。  
+首次使用前，可能需要执行：`chmod +x easypasswall.sh `来给予` EasyPasswall脚本 `的` 可执行权限 `。  
 初次进入EasyPasswall程序，需要执行` config first `来初始化。
 
 ## main-actions:
@@ -51,6 +51,8 @@
  停止代理  
  restart  
  重启代理  
+ exit  
+ 退出程序  
  
 - test:  
  speed  
